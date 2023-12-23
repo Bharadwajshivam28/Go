@@ -91,7 +91,7 @@ func main() {
 		newSimpleServer("https://www.bing.com"),
 		newSimpleServer("https://www.duckduckgo.com"),
 	}
-	lb := newLoadBalancer("9000", servers)
+	lb := newLoadBalancer("6500", servers)
 
 	http.HandleFunc("/", func(rw http.ResponseWriter, req *http.Request) {
 		lb.serveProxy(rw, req)
