@@ -1,0 +1,12 @@
+{
+	"Name": "Shivam",
+	"Age": 32,
+	"Contact": "2334433",
+	"Company": "Dominate",
+	"Address": {
+		"City": "bangalore",
+		"State": "karnatka",
+		"Country": "India",
+		"Pincode": 410013
+	}
+}
